@@ -1,83 +1,72 @@
-# CommunityDragon Toolbox
+# TFT Set 13 Champion Portrait Downloader
 
-A toolbox to work with League of Legends game files and export files for CDragon.
-It can be used as a library or a command-line tool.
+This script downloads champion portrait images for Teamfight Tactics (TFT) Set 13 from CommunityDragon.
 
-Most things are discussed on our [Discord server](https://discord.gg/rZQwuek). Feel free to join!
+## Requirements
 
-## Install
+- Python 3.6 or higher
+- `requests` library
+- `Pillow` library (for verification script)
 
-```
-pip3 install cdtb
-```
+## Installation
 
-**Windows users:** if needed precompiled packages of binary dependencies can be found [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/).
+1. Clone or download this repository
+2. Install the required dependencies:
 
-
-## Updating hashes
-
-Most commands require hash lists which are updated frequently and and not bundled with this code.
-
-To download them locally from `raw.communitydragon.org`, run:
-```
-cdtb fetch-hashes
+```bash
+pip install -r requirements.txt
 ```
 
-The command will print where they are downloaded.
-By default, they will land in `~/.local/share/cdragon` (or `%LOCALAPPDATA%/cdragon` on Windows).
-An alternate location can be configured using the `CDTB_HASHES_DIR` or `CDRAGON_DATA` environment variables.
+## Usage
 
-Hashes are versionned in the [Data](https://github.com/CommunityDragon/Data) repository.
+### Downloading Images
 
+Simply run the download script:
 
-## Command-line examples
-
-The CLI interface allows:
- - download game files and list relations between
- - list and extract content of WAD files
- - export game files to be served by CDragon
-
-Here are some examples, use `cdtb -h` for details.
-
-```sh
-# download and extract files for the latest patch to the directory `cdn`
-# (files from the new patcher will be used)
-cdtb -v download -s cdn patch=
-
-# download and extract files from the PBE to the directory `cdn`
-cdtb -v download -s cdn --patchline pbe patch=main
-
-# same, but don't download language-specific files
-cdtb download -s cdn --no-lang patch=
-
-# list patch versions (using already downloaded data in `cdn/`)
-cdtb versions -s cdn patch
-
-# list game files for patch 9.9
-cdtb files -s cdn game=9.9
-
-# extract a WAD file
-cdtb wad-extract path/to/assets.wad
-
-# list content of a WAD file
-cdtb wad-list path/to/assets.wad
-
-# export files from PBE
-cdtb export -s cdn --patchline pbe --full main
-
-# export files of patch 7.23 into export/7.23 (deprecated)
-cdtb export -o export 7.23
+```bash
+python download_tft_portraits.py
 ```
 
-## WAD files
+The script will:
+1. Create a directory called `tft13_portraits`
+2. Download both regular and mobile portrait images for each TFT Set 13 champion
+3. Save the images in champion-specific subdirectories
 
-WADs are archives used by the clients. They contain assets, game data (e.g.
-item description), files for the LCU interface and more.
+### Verifying Downloads
 
-Paths of files in WAD files are hashed, they are not stored in clear in the
-archive. A large number of these hashes have been guessed but there are still a
-lot of unresolved hashes.
+After downloading, you can verify the integrity of the downloaded images:
 
-An hash list is provided and regularly updated with new hashes as they are
-discovered, especially after client updates.
+```bash
+python verify_downloads.py
+```
+
+This will:
+1. Check if all expected champion directories exist
+2. Verify that all expected image files exist
+3. Validate that each image is a proper PNG file
+4. Provide a summary of valid and invalid/missing images
+
+## Output Structure
+
+```
+tft13_portraits/
+├── tft13_akali/
+│   ├── tft13_akali.tft_set13.png
+│   └── tft13_akali_mobile.tft_set13.png
+├── tft13_ambessa/
+│   ├── tft13_ambessa.tft_set13.png
+│   └── tft13_ambessa_mobile.tft_set13.png
+└── ...
+```
+
+## Notes
+
+- The script uses ThreadPoolExecutor to download multiple images in parallel
+- If an image fails to download, an error message will be displayed but the script will continue with other downloads
+- All images are sourced from raw.communitydragon.org
+
+## Credits
+
+- All images are owned by Riot Games
+- CommunityDragon was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
 
