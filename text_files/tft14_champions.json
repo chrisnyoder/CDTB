@@ -1,351 +1,6 @@
 [
   {
     "ability": {
-      "desc": "Slam the target dealing <magicDamage>@ModifiedDamage@&nbsp;(%i:scaleAP%)</magicDamage> magic damage.",
-      "icon": "ASSETS/Characters/TFT_BlueGolem/HUD/TFT_BlueGolem_Spell.tex",
-      "name": "Golem Smash",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [
-            100.0,
-            300.0,
-            480.0,
-            750.0,
-            1125.0,
-            100.0,
-            100.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_BlueGolem",
-    "characterName": "TFT_BlueGolem",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_BlueGolem.tex",
-    "name": "Golem",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_BlueGolem_Mobile.tex",
-    "stats": {
-      "armor": 40.0,
-      "attackSpeed": 0.550000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 55.0,
-      "hp": 600.0,
-      "initialMana": 30.0,
-      "magicResist": 40.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_BlueGolem/HUD/TFT_BlueGolem_Spell.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "<spellPassive>Passive:</spellPassive> Occasionally dash around the board.",
-      "icon": "ASSETS/Characters/TFT9_SLIME_Crab/HUD/Icons2D/TFT9_SLIME_Crab_Spell.TFT_Set13.tex",
-      "name": "Swimming Speed",
-      "variables": []
-    },
-    "apiName": "TFT9_SLIME_Crab",
-    "characterName": "TFT9_SLIME_Crab",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_ScuttleCrab.TFT_Set13.tex",
-    "name": "Rift Scuttler",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_ScuttleCrab_Mobile.TFT_Set13.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 20.0,
-      "hp": null,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT9_SLIME_Crab/HUD/Icons2D/TFT9_SLIME_Crab_Spell.TFT_Set13.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "The Training Dummy cannot move or attack. It is also dressed like a devilishly handsome Yordle.",
-      "icon": "ASSETS/Characters/TFT_TrainingDummy/HUD/Icons2D/TFTDebug_Dummy_DoNothing.tex",
-      "name": "On Duty!",
-      "variables": []
-    },
-    "apiName": "TFT_TrainingDummy",
-    "characterName": "TFT_TrainingDummy",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFTDebug_Dummy.tex",
-    "name": "Training Dummy",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFTDebug_Dummy_Mobile.tex",
-    "stats": {
-      "armor": 30.0,
-      "attackSpeed": 0.5,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": 50.0,
-      "hp": 550.0,
-      "initialMana": 0,
-      "magicResist": 30.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_TrainingDummy/HUD/Icons2D/TFT_TrainingDummy_DoNothing.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "The Voidspawn gains bonus Health and Attack Damage based on the current Stage. ",
-      "icon": "ASSETS/Characters/TFT_VoidSpawn/HUD/Icons2D/Voidspawn_SquareFixed.tex",
-      "name": "Voidborn",
-      "variables": []
-    },
-    "apiName": "TFT_Voidspawn",
-    "characterName": "TFT_VoidSpawn",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Voidspawn.tex",
-    "name": "Voidspawn",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Voidspawn_Mobile.tex",
-    "stats": {
-      "armor": 30.0,
-      "attackSpeed": 0.75,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 0.0,
-      "hp": null,
-      "initialMana": 0,
-      "magicResist": 30.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_VoidSpawn/HUD/Icons2D/Voidspawn_SquareCopy.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Heal to full Health whenever an allied Krug dies.",
-      "icon": "ASSETS/Characters/TFT_Krug/HUD/AncientKrug_Square.tex",
-      "name": "Stone Salvage",
-      "variables": []
-    },
-    "apiName": "TFT_Krug",
-    "characterName": "TFT_Krug",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Krug.tex",
-    "name": "Krug",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Krug_Mobile.tex",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 110.0,
-      "hp": 1200.0,
-      "initialMana": 0,
-      "magicResist": 25.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_Krug/HUD/AncientKrug_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Leap to the enemy backline at the beginning of combat.",
-      "icon": "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.tex",
-      "name": "Pack Attack",
-      "variables": []
-    },
-    "apiName": "TFT_Murkwolf",
-    "characterName": "TFT_MurkWolf",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Murkwolf.tex",
-    "name": "Murk Wolf",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Murkwolf_Mobile.tex",
-    "stats": {
-      "armor": 15.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 230.0,
-      "hp": 1300.0,
-      "initialMana": 0,
-      "magicResist": 15.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Leap to the enemy backline at the beginning of combat.",
-      "icon": "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.tex",
-      "name": "Pack Attack",
-      "variables": []
-    },
-    "apiName": "TFT_MurkwolfMini",
-    "characterName": "TFT_MurkwolfMini",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Murkwolf.tex",
-    "name": "Murkwolf",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Murkwolf_Mobile.tex",
-    "stats": {
-      "armor": 15.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 135.0,
-      "hp": 550.0,
-      "initialMana": 0,
-      "magicResist": 15.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Gain Attack Speed whenever an allied Razorbeak dies.",
-      "icon": "ASSETS/Characters/TFT_Razorbeak/HUD/Razorbeak_Square.tex",
-      "name": "Furious Flock",
-      "variables": []
-    },
-    "apiName": "TFT_Razorbeak",
-    "characterName": "TFT_Razorbeak",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Razorbeak.tex",
-    "name": "Razorbeak",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Razorbeak_Mobile.tex",
-    "stats": {
-      "armor": 25.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 230.0,
-      "hp": 2400.0,
-      "initialMana": 0,
-      "magicResist": 25.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_Razorbeak/HUD/Razorbeak_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Gain Attack Speed whenever an allied Razorbeak dies.",
-      "icon": "ASSETS/Characters/TFT_Razorbeak/HUD/Razorbeak_Square.tex",
-      "name": "Furious Flock",
-      "variables": []
-    },
-    "apiName": "TFT_RazorbeakMini",
-    "characterName": "TFT_RazorbeakMini",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Razorbeak.tex",
-    "name": "Razorbeak",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Razorbeak_Mobile.tex",
-    "stats": {
-      "armor": 25.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 180.0,
-      "hp": 1450.0,
-      "initialMana": 0,
-      "magicResist": 25.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_Razorbeak/HUD/Razorbeak_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Combat start: Charge forward, dealing <magicDamage>@MaxHealthPct*100@%</magicDamage> max Health magic damage and stunning enemies.",
-      "icon": "ASSETS/Characters/TFT_RiftHerald/HUD/TFT9_RiftHerald_Square.tex",
-      "name": "Void Charge",
-      "variables": [
-        {
-          "name": "MaxHealthPct",
-          "value": [
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_RiftHerald",
-    "characterName": "TFT_RiftHerald",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_RiftHerald.tex",
-    "name": "Rift Herald",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_RiftHerald_Mobile.tex",
-    "stats": {
-      "armor": 100.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 600.0,
-      "hp": 10000.0,
-      "initialMana": 0,
-      "magicResist": 100.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_RiftHerald/HUD/TFT9_RiftHerald_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Passive: Attacks splash in a cone behind the target.",
-      "icon": "ASSETS/Characters/TFT_ElderDragon/HUD/Dragon_Square_Elder.tex",
-      "name": "Primordial Breath",
-      "variables": []
-    },
-    "apiName": "TFT_ElderDragon",
-    "characterName": "TFT_ElderDragon",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_ElderDragon.tex",
-    "name": "Elder Dragon",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_ElderDragon_Mobile.tex",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 900.0,
-      "hp": 10000.0,
-      "initialMana": 0,
-      "magicResist": 50.0,
-      "mana": 0.0,
-      "range": 2.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ElderDragon/HUD/Dragon_Square_Elder.tex",
-    "traits": []
-  },
-  {
-    "ability": {
       "desc": "Throw a paint bomb at the largest group of enemies within <TFTBonus>@ModifiedCastRange@&nbsp;(%i:scaleRange%)</TFTBonus>&nbsp;hexes, dealing <magicDamage>@ModifiedDamage@&nbsp;(%i:scaleAP%)</magicDamage>&nbsp;magic damage to enemies within @PrimaryHexRadius@&nbsp;hex and <magicDamage>@ModifiedSecondaryDamage@&nbsp;(%i:scaleAP%)</magicDamage>&nbsp;magic damage to the nearest&nbsp;@NumSecondaryMissiles@&nbsp;enemies.",
       "icon": "ASSETS/Characters/TFT14_Brand/HUD/TFT14_BrandPyroclasm.TFT_Set14.tex",
       "name": "Paint Bomb",
@@ -1181,13 +836,13 @@
         {
           "name": "WaveCount",
           "value": [
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0
           ]
         },
         {
@@ -1205,13 +860,13 @@
         {
           "name": "T1BonusWaves",
           "value": [
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
           ]
         },
         {
@@ -1289,13 +944,13 @@
         {
           "name": "T3BossPierceMod",
           "value": [
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185
           ]
         }
       ]
@@ -1602,13 +1257,13 @@
         {
           "name": "ADPercent",
           "value": [
-            2.4000000953674316,
-            2.4000000953674316,
-            2.4000000953674316,
-            2.4000000953674316,
-            2.4000000953674316,
-            2.4000000953674316,
-            2.4000000953674316
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25
           ]
         },
         {
@@ -1639,10 +1294,10 @@
           "name": "HealAmount",
           "value": [
             100.0,
-            160.0,
-            180.0,
-            210.0,
-            240.0,
+            140.0,
+            145.0,
+            150.0,
+            200.0,
             100.0,
             100.0
           ]
@@ -1707,13 +1362,13 @@
         {
           "name": "BonusBulletsPerAmp",
           "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
           ]
         },
         {
@@ -1802,7 +1457,7 @@
       "attackSpeed": 0.800000011920929,
       "critChance": 0.25,
       "critMultiplier": 1.399999976158142,
-      "damage": 60.0,
+      "damage": 65.0,
       "hp": 900.0,
       "initialMana": 20.0,
       "magicResist": 40.0,
@@ -1886,20 +1541,20 @@
   },
   {
     "ability": {
-      "desc": "<spellPassive>Passive:</spellPassive> Gain <TFTBonus>@ADPercentGain*100@%</TFTBonus>&nbsp;Attack Damage for each kill this game. <rules>(Kills:&nbsp;@TFTUnitProperty.unit:TFT14_ShacoADStacks@,  @TFTUnitProperty.unit:TFT14_ShacoTotalStackAD@%&nbsp;%i:scaleAD%)</rules><br><br><spellActive>Active:</spellActive> Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage>&nbsp;physical damage to the current&nbsp;target. <br><br><scaleLevel enabled=TFT14_Mob_IsActive_T1 alternate=TFTGuildInactive>Kingpin bonus: Teleport behind the lowest Health enemy within @T1HexRange@&nbsp;hexes and deal <ShowIfNot.TFT14_Mob_IsActive_T3><physicalDamage>@ModifiedT1Damage@ (%i:scaleAD%)</physicalDamage>&nbsp;bonus physical damage</ShowIfNot.TFT14_Mob_IsActive_T3><ShowIf.TFT14_Mob_IsActive_T3><physicalDamage>@ModifiedT3Damage@ (%i:scaleAD%)</physicalDamage>&nbsp;bonus physical damage. If this kills, immediately cast again with @BossRecastMultiplier*100@%&nbsp;damage</ShowIf.TFT14_Mob_IsActive_T3>.</scaleLevel>",
+      "desc": "<spellPassive>Passive:</spellPassive> Gain <TFTBonus>@ADPercentGain*100@%</TFTBonus>&nbsp;Attack Damage for each kill this game <rules>(@ADPercentGain_HR*100@% in Hyper Roll)</rules>. <rules>(Kills:&nbsp;@TFTUnitProperty.unit:TFT14_ShacoADStacks@,  @TFTUnitProperty.unit:TFT14_ShacoTotalStackAD@%&nbsp;%i:scaleAD%)</rules><br><br><spellActive>Active:</spellActive> Deal <physicalDamage>@TotalDamage@&nbsp;(%i:scaleAD%)</physicalDamage>&nbsp;physical damage to the current&nbsp;target. <br><br><scaleLevel enabled=TFT14_Mob_IsActive_T1 alternate=TFTGuildInactive>Kingpin bonus: Teleport behind the lowest Health enemy within @T1HexRange@&nbsp;hexes and deal <ShowIfNot.TFT14_Mob_IsActive_T3><physicalDamage>@ModifiedT1Damage@ (%i:scaleAD%)</physicalDamage>&nbsp;bonus physical damage</ShowIfNot.TFT14_Mob_IsActive_T3><ShowIf.TFT14_Mob_IsActive_T3><physicalDamage>@ModifiedT3Damage@ (%i:scaleAD%)</physicalDamage>&nbsp;bonus physical damage. If this kills, immediately cast again with @BossRecastMultiplier*100@%&nbsp;damage</ShowIf.TFT14_Mob_IsActive_T3>.</scaleLevel>",
       "icon": "ASSETS/Characters/TFT14_Shaco/HUD/Icons2D/TFT14_Shaco_Q.TFT_Set14.tex",
       "name": "Felony Fantastique",
       "variables": [
         {
           "name": "PercentAttackDamage",
           "value": [
-            2.75,
-            2.75,
-            2.75,
-            2.75,
-            2.75,
-            2.75,
-            2.75
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
           ]
         },
         {
@@ -1912,6 +1567,18 @@
             0.014999999664723873,
             0.014999999664723873,
             0.014999999664723873
+          ]
+        },
+        {
+          "name": "ADPercentGain_HR",
+          "value": [
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903
           ]
         },
         {
@@ -1941,13 +1608,13 @@
         {
           "name": "T3DamageMod",
           "value": [
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437
           ]
         },
         {
@@ -1965,13 +1632,13 @@
         {
           "name": "BossRecastMultiplier",
           "value": [
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75,
-            0.75
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437,
+            0.6600000262260437
           ]
         }
       ]
@@ -2011,10 +1678,10 @@
           "name": "BaseDamage",
           "value": [
             0.0,
-            150.0,
-            225.0,
-            340.0,
-            455.0,
+            200.0,
+            300.0,
+            450.0,
+            600.0,
             450.0,
             450.0
           ]
@@ -2083,10 +1750,10 @@
           "name": "T1BonusDamage",
           "value": [
             0.0,
-            260.0,
-            390.0,
-            610.0,
-            830.0,
+            250.0,
+            375.0,
+            565.0,
+            755.0,
             0.0,
             0.0
           ]
@@ -2733,13 +2400,13 @@
         {
           "name": "BossResistsT3",
           "value": [
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
           ]
         },
         {
@@ -3542,13 +3209,13 @@
         {
           "name": "ADRatio",
           "value": [
-            2.6500000953674316,
-            2.6500000953674316,
-            2.6500000953674316,
-            2.6500000953674316,
-            2.6500000953674316,
-            2.6500000953674316,
-            2.6500000953674316
+            2.75,
+            2.75,
+            2.75,
+            2.75,
+            2.75,
+            2.75,
+            2.75
           ]
         },
         {
@@ -3607,9 +3274,9 @@
           "name": "ADPerPackmate",
           "value": [
             0.0,
-            0.6499999761581421,
-            0.6499999761581421,
-            0.699999988079071,
+            0.75,
+            0.75,
+            0.75,
             0.75,
             0.0,
             0.0
@@ -3619,10 +3286,10 @@
           "name": "ADPerGigaDog",
           "value": [
             0.0,
-            1.649999976158142,
-            1.649999976158142,
             1.75,
-            1.850000023841858,
+            1.75,
+            1.75,
+            1.75,
             0.0,
             0.0
           ]
@@ -3638,7 +3305,7 @@
     "squareIcon": "ASSETS/Characters/TFT14_Naafiri/Skins/Base/Images/TFT14_Naafiri_Mobile.TFT_Set14.tex",
     "stats": {
       "armor": 50.0,
-      "attackSpeed": 0.800000011920929,
+      "attackSpeed": 0.8500000238418579,
       "critChance": 0.25,
       "critMultiplier": 1.399999976158142,
       "damage": 52.0,
@@ -4438,10 +4105,10 @@
           "name": "BaseDamage",
           "value": [
             0.0,
-            60.0,
-            90.0,
-            135.0,
-            180.0,
+            100.0,
+            150.0,
+            225.0,
+            300.0,
             0.0,
             0.0
           ]
@@ -4600,8 +4267,8 @@
           "name": "MaxHealthBase",
           "value": [
             0.0,
-            160.0,
-            200.0,
+            50.0,
+            80.0,
             500.0,
             1000.0,
             0.0,
@@ -4612,9 +4279,9 @@
           "name": "MaxHealthHPScalar",
           "value": [
             0.03999999910593033,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.15000000596046448,
+            0.2199999988079071,
+            0.2199999988079071,
+            0.7699999809265137,
             0.20000000298023224,
             0.03999999910593033,
             0.03999999910593033
@@ -5532,10 +5199,10 @@
           "name": "BaseShield",
           "value": [
             0.0,
-            270.0,
             300.0,
             350.0,
             400.0,
+            450.0,
             0.0,
             0.0
           ]
@@ -5567,13 +5234,13 @@
         {
           "name": "SweepDamageAD",
           "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
           ]
         },
         {
@@ -5602,7 +5269,7 @@
       "attackSpeed": 0.6499999761581421,
       "critChance": 0.25,
       "critMultiplier": 1.399999976158142,
-      "damage": 50.0,
+      "damage": 60.0,
       "hp": 850.0,
       "initialMana": 25.0,
       "magicResist": 50.0,
@@ -5731,8 +5398,8 @@
           "name": "BaseMainDamage",
           "value": [
             200.0,
-            210.0,
-            315.0,
+            230.0,
+            345.0,
             1200.0,
             2000.0,
             200.0,
@@ -5743,9 +5410,9 @@
           "name": "BaseBonusDamage",
           "value": [
             0.0,
-            30.0,
-            45.0,
-            240.0,
+            40.0,
+            60.0,
+            300.0,
             400.0,
             0.0,
             0.0
@@ -6074,178 +5741,6 @@
       "Divinicorp",
       "Vanguard"
     ]
-  },
-  {
-    "ability": {
-      "desc": "<spellPassive>Passive:</spellPassive> Has <TFTBonus>@ModifiedTibbersAS@&nbsp;(%i:set14AmpIcon%)</TFTBonus>&nbsp;Attack Speed. <TFTKeyword>Burns</TFTKeyword> and <TFTKeyword>Wounds</TFTKeyword> adjacent enemies for&nbsp;@BurnDuration@&nbsp;seconds.<br><br>{{TFT_Keyword_Burn}}<br>{{TFT_Keyword_Wound}}",
-      "icon": "ASSETS/Characters/TFT14_AnnieTibbers/HUD/Icons2D/TFT14_AnnieTibbers_R2.TFT_Set14.tex",
-      "name": "Meltdown",
-      "variables": [
-        {
-          "name": "Radius",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "name": "BurnDuration",
-          "value": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ]
-        },
-        {
-          "name": "TibbersHealth",
-          "value": [
-            400.0,
-            10.0,
-            100.0,
-            4000.0,
-            5000.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "name": "TibbersASPerAmp",
-          "value": [
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896
-          ]
-        },
-        {
-          "name": "TibbersBonusASBase",
-          "value": [
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579
-          ]
-        },
-        {
-          "name": "TibbersBonusHealth",
-          "value": [
-            300.0,
-            500.0,
-            700.0,
-            1000.0,
-            1000.0,
-            300.0,
-            300.0
-          ]
-        },
-        {
-          "name": "TibbersStageHealth",
-          "value": [
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_AnnieTibbers",
-    "characterName": "TFT14_AnnieTibbers",
-    "cost": 11,
-    "icon": "ASSETS/Characters/TFT14_AnnieTibbers/Skins/Base/Images/TFT14_AnnieTibbers.TFT_Set14.tex",
-    "name": "Tibbers",
-    "role": null,
-    "squareIcon": "ASSETS/Characters/TFT14_AnnieTibbers/Skins/Base/Images/TFT14_AnnieTibbers_Mobile.TFT_Set14.tex",
-    "stats": {
-      "armor": 60.0,
-      "attackSpeed": 0.699999988079071,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 120.0,
-      "hp": 1200.0,
-      "initialMana": 0,
-      "magicResist": 60.0,
-      "mana": 80.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_AnnieTibbers/HUD/TFT14_AnnieTibbers_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Fire grenades at the nearest @NumMissiles@&nbsp;enemies, dealing <magicDamage>@ModifiedMissileDamage@&nbsp;(%i:scaleAP%)</magicDamage>&nbsp;magic damage and <TFTKeyword>Stunning</TFTKeyword> them for @StunDuration@&nbsp;seconds. Heal <scaleHealth>@ModifiedHeal@&nbsp;(%i:scaleAP%)</scaleHealth>&nbsp;Health.<br><br>@TFTUnitProperty.:TFT14_HotRod_LaserTooltip_Blank@",
-      "icon": "ASSETS/Characters/TFT14_SummonLevel2/HUD/TFT14_SummonLevel3_splash_tile_6.TFT_Set14.tex",
-      "name": "Rage With the Machines",
-      "variables": []
-    },
-    "apiName": "TFT14_SummonLevel2",
-    "characterName": "TFT14_SummonLevel2",
-    "cost": 2,
-    "icon": "ASSETS/Characters/TFT14_SummonLevel3/Skins/Base/Images/TFT14_Mimic.TFT_Set14.tex",
-    "name": "R-080T",
-    "role": null,
-    "squareIcon": "ASSETS/Characters/TFT14_SummonLevel3/Skins/Base/Images/TFT14_Mimic_Mobile.TFT_Set14.tex",
-    "stats": {
-      "armor": 40.0,
-      "attackSpeed": 0.699999988079071,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 45.0,
-      "hp": 500.0,
-      "initialMana": 50.0,
-      "magicResist": 40.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT9_HeimerdingerTurret/HUD/Icons2D/TFT9_HeimerdingerTurret_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "",
-      "icon": "ASSETS/Characters/TFT9_THex/HUD/Icons2D/TFT9_THex_Square.tex",
-      "name": "RawrXD",
-      "variables": []
-    },
-    "apiName": "TFT14_SummonLevel4",
-    "characterName": "TFT14_SummonLevel4",
-    "cost": 4,
-    "icon": "ASSETS/Characters/TFT14_SummonLevel4/Skins/Base/images/TFT14_THex.TFT_Set14.tex",
-    "name": "T-43X",
-    "role": null,
-    "squareIcon": "ASSETS/Characters/TFT14_SummonLevel4/Skins/Base/images/TFT14_THex_Mobile.TFT_Set14.tex",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.75,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 80.0,
-      "hp": 800.0,
-      "initialMana": 50.0,
-      "magicResist": 50.0,
-      "mana": 120.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT9_THex/HUD/Icons2D/TFT9_THex_Square.tex",
-    "traits": []
   },
   {
     "ability": {
@@ -6644,652 +6139,6 @@
   },
   {
     "ability": {
-      "desc": "Always watching you.",
-      "icon": "ASSETS/Characters/TFT_ChaosMinionMelee/HUD/TFT_MinionSquare.tex",
-      "name": "Surveillance",
-      "variables": [
-        {
-          "name": "PercentAttackDamage",
-          "value": [
-            1.149999976158142,
-            1.149999976158142,
-            1.149999976158142,
-            1.149999976158142,
-            1.149999976158142,
-            1.149999976158142,
-            1.149999976158142
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_Drone",
-    "characterName": "TFT14_NPC_Drone",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechadrone",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 18.0,
-      "hp": 250.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 60.0,
-      "range": 3.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Cleans up the scum of the streets.",
-      "icon": "ASSETS/Characters/TFT_ChaosMinionMelee/HUD/TFT_MinionSquare.tex",
-      "name": "Cannon Blast",
-      "variables": [
-        {
-          "name": "Tier1Damage",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        },
-        {
-          "name": "Tier2Damage",
-          "value": [
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5
-          ]
-        },
-        {
-          "name": "Tier3Damage",
-          "value": [
-            3.299999952316284,
-            3.299999952316284,
-            3.299999952316284,
-            3.299999952316284,
-            3.299999952316284,
-            3.299999952316284,
-            3.299999952316284
-          ]
-        },
-        {
-          "name": "Tier4Damage",
-          "value": [
-            0.0,
-            4.5,
-            4.5,
-            9.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        },
-        {
-          "name": "Tier5Damage",
-          "value": [
-            0.0,
-            6.0,
-            6.0,
-            60.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_Cannon",
-    "characterName": "TFT14_NPC_Cannon",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechacannon",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 110.0,
-      "hp": 1200.0,
-      "initialMana": 0,
-      "magicResist": 50.0,
-      "mana": 0.0,
-      "range": 4.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Specialized soldiers for solving specialized problems.",
-      "icon": "ASSETS/Characters/TFT_ChaosMinionMelee/HUD/TFT_MinionSquare.tex",
-      "name": "Shock Troops",
-      "variables": [
-        {
-          "name": "PercentAttackDamage",
-          "value": [
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_AzirSoldier",
-    "characterName": "TFT14_NPC_AzirSoldier",
-    "cost": 3,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechasoldier",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 25.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 80.0,
-      "hp": 1800.0,
-      "initialMana": 0,
-      "magicResist": 25.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Breaks up particularly stubborn factions.",
-      "icon": "ASSETS/Characters/TFT_ChaosMinionMelee/HUD/TFT_MinionSquare.tex",
-      "name": "Dispersal Protocol",
-      "variables": [
-        {
-          "name": "PercentAttackDamage",
-          "value": [
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_Super",
-    "characterName": "TFT14_NPC_Super",
-    "cost": 2,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechaminion",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 50.0,
-      "attackSpeed": 0.75,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 130.0,
-      "hp": 1400.0,
-      "initialMana": 0,
-      "magicResist": 50.0,
-      "mana": 0.0,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Call down @NumMeteors@&nbsp;meteors on random enemies that deal <magicDamage>@ModifiedDamage@</magicDamage>&nbsp;magic damage, <TFTKeyword>Burn</TFTKeyword>, and <TFTKeyword>Wound</TFTKeyword> for @Duration@&nbsp;seconds. <br><br>{{TFT_Keyword_Burn}}<br>{{TFT_Keyword_Wound}}",
-      "icon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/Icons2D/TFT14_Hacked_AurelionSolR1.TFT_Set14.tex",
-      "name": "Tears in the Rain",
-      "variables": [
-        {
-          "name": "Damage",
-          "value": [
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0
-          ]
-        },
-        {
-          "name": "Duration",
-          "value": [
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0
-          ]
-        },
-        {
-          "name": "PercentBurn",
-          "value": [
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0
-          ]
-        },
-        {
-          "name": "NumMeteors",
-          "value": [
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0
-          ]
-        },
-        {
-          "name": "HealingReduction",
-          "value": [
-            33.0,
-            33.0,
-            33.0,
-            33.0,
-            33.0,
-            33.0,
-            33.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_AurelionSol",
-    "characterName": "TFT14_NPC_AurelionSol",
-    "cost": 5,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechaurelion",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 100.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 800.0,
-      "hp": 12000.0,
-      "initialMana": 10.0,
-      "magicResist": 100.0,
-      "mana": 30.0,
-      "range": 4.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Call forth a wall of charging Mechasoldiers that deal <magicDamage>@ModifiedDamage@</magicDamage> magic damage and Stun enemies hit for <TFTBonus>@KnockupDuration@</TFTBonus>&nbsp;second.",
-      "icon": "ASSETS/Characters/TFT14_NPC_Azir/HUD/Icons2D/TFT14_NPC_Azir_W.TFT_Set14.tex",
-      "name": "Divide and Cull",
-      "variables": [
-        {
-          "name": "WallDuration",
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ]
-        },
-        {
-          "name": "WallDamage",
-          "value": [
-            600.0,
-            600.0,
-            600.0,
-            600.0,
-            600.0,
-            600.0,
-            600.0
-          ]
-        },
-        {
-          "name": "WallLength",
-          "value": [
-            2100.0,
-            2100.0,
-            2100.0,
-            2100.0,
-            2100.0,
-            2100.0,
-            2100.0
-          ]
-        },
-        {
-          "name": "WallWidth",
-          "value": [
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0,
-            450.0
-          ]
-        },
-        {
-          "name": "KnockupDuration",
-          "value": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ]
-        },
-        {
-          "name": "SlowDuration",
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_NPC_Azir",
-    "characterName": "TFT14_NPC_Azir",
-    "cost": 1,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion.tex",
-    "name": "Mechazir",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Minion_Mobile.tex",
-    "stats": {
-      "armor": 120.0,
-      "attackSpeed": 1.0,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 900.0,
-      "hp": 13000.0,
-      "initialMana": 10.0,
-      "magicResist": 120.0,
-      "mana": 30.0,
-      "range": 4.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_Hacked_AurelionSol/HUD/TFT14_Hacked_AurelionSol_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "This egg will soon hatch into loot! <b>LOSSES</b> accelerate the hatch timer by an additional turn.",
-      "icon": "ASSETS/Characters/TFT14_HackedEgg/HUD/Icons2D/TFT14_HackedEgg_Square.TFT_Set14.tex",
-      "name": "Hacked Egg",
-      "variables": [
-        {
-          "name": "EggTurns",
-          "value": [
-            7.0,
-            7.0,
-            7.0,
-            7.0,
-            7.0,
-            7.0,
-            7.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_HackedEgg",
-    "characterName": "TFT14_HackedEgg",
-    "cost": 11,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_TheGoldenEgg.tex",
-    "name": "Hacked Egg",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_TheGoldenEgg_Mobile.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": null,
-      "hp": null,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 0.0,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_HackedEgg/HUD/TFT14_HackedEgg_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this Tome to the Shop to open an Armory full of emblems! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT8_TeamUpProp/HUD/Icons2D/TFT5_EmblemArmoryKey_Square.tex",
-      "name": "Tome of Traits",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_EmblemArmoryKey",
-    "characterName": "TFT14_EmblemArmoryKey",
-    "cost": 8,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT5_EmblemArmoryKey.tex",
-    "name": "Tome of Traits",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT5_DraconicEgg_Mobile.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": null,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT8_TeamUpProp/HUD/Icons2D/TFT5_EmblemArmoryKey_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Permanently increase Zac's maximum Health and Ability Power.",
-      "icon": null,
-      "name": "Permanently increase Zac's maximum Health and Ability Power.",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_GoldenOxProp",
-    "characterName": "TFT14_GoldenOxProp",
-    "cost": 10,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template.tex",
-    "name": null,
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template_Mobile.tex",
-    "stats": {
-      "armor": 88.0,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 0.0,
-      "hp": 88888.0,
-      "initialMana": 0,
-      "magicResist": 88.0,
-      "mana": 100,
-      "range": 138.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT14_GoldenOxProp/HUD/TFT14_GoldenOxProp_Square.TFT_Set14.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Fire a laser through the current target, dealing <magicDamage>@ModifiedTotalLaserDamage@ (%i:scaleAP%)</magicDamage> total magic damage to enemies hit over @LaserDuration@ seconds reduced by @DamageFalloffPercent*100@% per enemy hit.",
-      "icon": "ASSETS/Characters/TFT14_SummonLevel2/HUD/TFT14_SummonLevel3_splash_tile_6.TFT_Set14.tex",
-      "name": "Rage With the Machines",
-      "variables": []
-    },
-    "apiName": "TFT14_Summon_Turret",
-    "characterName": "TFT14_Summon_Turret",
-    "cost": 11,
-    "icon": "ASSETS/Characters/TFT14_Summon_Turret/Skins/Base/images/TFT14_GuerillaTurret.TFT_Set14.tex",
-    "name": "T-URR37",
-    "role": null,
-    "squareIcon": "ASSETS/Characters/TFT14_Summon_Turret/Skins/Base/images/TFT14_GuerillaTurret_Mobile.TFT_Set14.tex",
-    "stats": {
-      "armor": 20.0,
-      "attackSpeed": 0.699999988079071,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": 30.0,
-      "hp": 375.0,
-      "initialMana": 0,
-      "magicResist": 20.0,
-      "mana": 60.0,
-      "range": 4.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT9_HeimerdingerTurret/HUD/Icons2D/TFT9_HeimerdingerTurret_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Sell this orb to gain 1XP.",
-      "icon": null,
-      "name": "Anima Squad XP Orb",
-      "variables": []
-    },
-    "apiName": "TFT14_AnimaSquadMeep",
-    "characterName": "TFT14_AnimaSquadMeep",
-    "cost": 11,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template.tex",
-    "name": "SightWard",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template_Mobile.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": 10.0,
-      "critMultiplier": 1.0,
-      "damage": null,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ItemUnknown/Skins/Skin0/TFT_Item_Unknown.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Permanently increase Zac's maximum Health and Ability Power.",
-      "icon": null,
-      "name": "Permanently increase Zac's maximum Health and Ability Power.",
-      "variables": [
-        {
-          "name": "DataValue",
-          "value": [
-            0.0,
-            1.0,
-            2.0,
-            10.0,
-            160.0,
-            200.0,
-            240.0
-          ]
-        },
-        {
-          "name": "OtherValue",
-          "value": [
-            0.0,
-            100.0,
-            200.0,
-            1000.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT14_CypherProp",
-    "characterName": "TFT14_CypherProp",
-    "cost": 10,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template.tex",
-    "name": null,
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT_Template_Mobile.tex",
-    "stats": {
-      "armor": null,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": null,
-      "hp": null,
-      "initialMana": 0,
-      "magicResist": 20.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ItemUnknown/Skins/Skin0/TFT_Item_Unknown.tex",
-    "traits": []
-  },
-  {
-    "ability": {
       "desc": "Fire a moon blast at the largest group of enemies that deals <physicalDamage>@TotalBlastDamage@&nbsp;(%i:scaleAD%%i:scaleAP%)</physicalDamage>&nbsp;physical damage to enemies within @BlastSize@&nbsp;hexes. <br><br>Equip @BaseChakramNumber@&nbsp;Chakram, plus 1&nbsp;more for each enemy hit by the blast, that last for @ChakramAttacks@&nbsp;attacks and deal <physicalDamage>@TotalChakramDamage@&nbsp;(%i:scaleAD%)</physicalDamage>&nbsp;bonus physical damage&nbsp;each.",
       "icon": "ASSETS/Characters/TFT14_Aphelios/HUD/Icons2D/TFT14_ApheliosR.TFT_Set14.tex",
       "name": "Moonlight Vigil",
@@ -7404,286 +6253,5 @@
       "Golden Ox",
       "Marksman"
     ]
-  },
-  {
-    "ability": {
-      "desc": "Permanently increase Zac's maximum Health and Ability Power.",
-      "icon": "ASSETS/Characters/TFT9_HeimerUpgrade_SelfRepair/HUD/Icons2D/TFT9_HeimerdingerTurret_Repair.tex",
-      "name": "Permanently increase Zac's maximum Health and Ability Power.",
-      "variables": []
-    },
-    "apiName": "TFT14_Virus_Bloblet",
-    "characterName": "TFT14_Virus_Bloblet",
-    "cost": 10,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT14_VirusBoblet.tex",
-    "name": "Bloblet",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT14_VirusBoblet_Mobile.tex",
-    "stats": {
-      "armor": null,
-      "attackSpeed": 0.800000011920929,
-      "critChance": 0.25,
-      "critMultiplier": 1.399999976158142,
-      "damage": null,
-      "hp": null,
-      "initialMana": 0,
-      "magicResist": 20.0,
-      "mana": 100,
-      "range": 1.0
-    },
-    "tileIcon": null,
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this Tome to the Shop to open an Armory full of emblems! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT8_TeamUpProp/HUD/Icons2D/TFT5_EmblemArmoryKey_Square.tex",
-      "name": "Tome of Traits",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT5_EmblemArmoryKey",
-    "characterName": "TFT5_EmblemArmoryKey",
-    "cost": 8,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT5_EmblemArmoryKey.tex",
-    "name": "Tome of Traits",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT5_DraconicEgg_Mobile.tex",
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": null,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT8_TeamUpProp/HUD/Icons2D/TFT5_EmblemArmoryKey_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this to the Shop to open an Armory full of completed items! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT_ArmoryKeyCompleted/HUD/Icons2D/TFT_ArmoryKeyCompleted_Square.tex",
-      "name": "Completed Item Anvil",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_ArmoryKeyCompleted",
-    "characterName": "TFT_ArmoryKeyCompleted",
-    "cost": 8,
-    "icon": null,
-    "name": "Completed Item Anvil",
-    "role": null,
-    "squareIcon": null,
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": 70.0,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ArmoryKeyCompleted/HUD/Icons2D/TFT_ArmoryKeyCompleted_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this to the Shop to open an Armory full of component items! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT_ArmoryKeyComponent/HUD/Icons2D/TFT_ArmoryKeyComponent_Square.tex",
-      "name": "Component Anvil",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_ArmoryKeyComponent",
-    "characterName": "TFT_ArmoryKeyComponent",
-    "cost": 8,
-    "icon": null,
-    "name": "Component Anvil",
-    "role": null,
-    "squareIcon": null,
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": 70.0,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ArmoryKeyComponent/HUD/Icons2D/TFT_ArmoryKeyComponent_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this to the Shop to open an Armory full of Artifact items! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT_ArmoryKeyOrnn/HUD/Icons2D/TFT_ArmoryKeyOrnn_Square.tex",
-      "name": "Artifact Item Anvil",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_ArmoryKeyOrnn",
-    "characterName": "TFT_ArmoryKeyOrnn",
-    "cost": 8,
-    "icon": null,
-    "name": "Artifact Item Anvil",
-    "role": null,
-    "squareIcon": null,
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": 70.0,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ArmoryKeyOrnn/HUD/Icons2D/TFT_ArmoryKeyOrnn_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "Drag this to the Shop to open an Armory full of Support items! You will have 30 seconds to choose.",
-      "icon": "ASSETS/Characters/TFT_ArmoryKeySupport/HUD/TFT_ArmoryKeySupport_Square.tex",
-      "name": "Support item anvil",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT_ArmoryKeySupport",
-    "characterName": "TFT_ArmoryKeySupport",
-    "cost": 8,
-    "icon": null,
-    "name": "Support item anvil",
-    "role": null,
-    "squareIcon": null,
-    "stats": {
-      "armor": 10.0,
-      "attackSpeed": 1.0,
-      "critChance": null,
-      "critMultiplier": 0.0,
-      "damage": 70.0,
-      "hp": 10.0,
-      "initialMana": 0,
-      "magicResist": 10.0,
-      "mana": 100,
-      "range": 0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ArmoryKeySupport/HUD/TFT_ArmoryKeySupport_Square.tex",
-    "traits": []
-  },
-  {
-    "ability": {
-      "desc": "This chest stores all of the accumulated loot you've collected. Win a combat against a player to open it!",
-      "icon": "ASSETS/Characters/TFT6_MercenaryChest/HUD/Icons2D/TFT6_MercenaryChest_EyeOfTheStorm.tex",
-      "name": "Mercenary Chest",
-      "variables": [
-        {
-          "name": "RoundsToHatch",
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ]
-        }
-      ]
-    },
-    "apiName": "TFT6_MercenaryChest",
-    "characterName": "TFT6_MercenaryChest",
-    "cost": 11,
-    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_MercenaryChest.tex",
-    "name": "Mercenary Chest",
-    "role": null,
-    "squareIcon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_MercenaryChest_Mobile.tex",
-    "stats": {
-      "armor": 0.0,
-      "attackSpeed": null,
-      "critChance": 0.25,
-      "critMultiplier": 1.2999999523162842,
-      "damage": 0.0,
-      "hp": 1.0,
-      "initialMana": 0,
-      "magicResist": null,
-      "mana": 12.0,
-      "range": 0.0
-    },
-    "tileIcon": "ASSETS/Characters/TFT_ItemUnknown/Skins/Skin0/TFT_Item_Unknown.tex",
-    "traits": []
   }
 ]

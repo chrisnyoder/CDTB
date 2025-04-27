@@ -23,15 +23,19 @@ def main():
         from download_text_file import main as download_text
         download_text()
         
-        print("\n2. Downloading champion portraits...")
-        from download_tft_portraits import main as download_portraits
-        download_portraits()
+        print("\n2. Downloading meta comps data...")
+        from download_meta_comps import main as download_meta_comps
+        download_meta_comps()
         
-        print("\n3. Downloading trait icons...")
-        from download_tft_traits import main as download_traits
-        download_traits()
+        # print("\n3. Downloading champion portraits...")
+        # from download_tft_portraits import main as download_portraits
+        # download_portraits()
         
-        print("\nAll downloads completed successfully!")
+        # print("\n4. Downloading trait icons...")
+        # from download_tft_traits import main as download_traits
+        # download_traits()
+        
+        # print("\nAll downloads completed successfully!")
         
     except Exception as e:
         print(f"\nError during download process: {e}", file=sys.stderr)

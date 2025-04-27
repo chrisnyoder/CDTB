@@ -58,11 +58,36 @@ def download_and_process_json(url, output_dir):
         if not set_data:
             raise ValueError(f"Could not find TFT Set {CURRENT_SET} data in the response")
         
+        # Get API names for the current set's augments and items
+        set_augment_api_names = set(set_data.get('augments', []))
+        set_item_api_names = set(set_data.get('items', []))
+        
+        # Get the full list of all items/augments from the top level
+        all_items_data = data.get('items', [])
+        
+        # Filter the full list to get data only for the current set's augments and items
+        current_set_augments = [
+            item for item in all_items_data 
+            if item.get('apiName') in set_augment_api_names
+        ]
+        current_set_items = [
+            item for item in all_items_data 
+            if item.get('apiName') in set_item_api_names
+        ]
+
+        champions_data = set_data.get('champions', [])
+
+        # Filter champions to only include those with a role
+        current_set_champions = [
+            champion for champion in champions_data
+            if champion.get('role') != None
+        ]
+
         # Create the individual JSON files
         file_mappings = {
-            f'tft{CURRENT_SET}_augments.json': set_data.get('augments', []),
-            f'tft{CURRENT_SET}_champions.json': set_data.get('champions', []),
-            f'tft{CURRENT_SET}_items.json': set_data.get('items', []),
+            f'tft{CURRENT_SET}_augments.json': current_set_augments,
+            f'tft{CURRENT_SET}_champions.json': current_set_champions,
+            f'tft{CURRENT_SET}_items.json': current_set_items,
             f'tft{CURRENT_SET}_traits.json': set_data.get('traits', [])
         }
         

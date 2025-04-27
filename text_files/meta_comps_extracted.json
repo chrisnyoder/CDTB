@@ -1,0 +1,1788 @@
+{
+  "0": {
+    "units_string": "TFT14_Aurora, TFT14_Darius, TFT14_Jax, TFT14_Jhin, TFT14_MissFortune, TFT14_Mordekaiser, TFT14_Sejuani, TFT14_TwistedFate, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT14_VarusCyberneticItem",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT14_JaxCyberneticItem",
+          "TFT_Item_FrozenHeart",
+          "TFT_Item_Redemption"
+        ]
+      },
+      {
+        "unit": "TFT14_MissFortune",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_PowerGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "1": {
+    "units_string": "TFT14_Aurora, TFT14_Braum, TFT14_Darius, TFT14_Elise, TFT14_Leona, TFT14_MissFortune, TFT14_Morgana, TFT14_Rhaast, TFT14_Sylas",
+    "builds": [
+      {
+        "unit": "TFT14_MissFortune",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_MadredsBloodrazor",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Braum",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "2": {
+    "units_string": "TFT14_Brand, TFT14_DrMundo, TFT14_Ekko, TFT14_Kobuko, TFT14_Neeko, TFT14_Rengar, TFT14_Samira, TFT14_Ziggs, TFT14_Zyra",
+    "builds": [
+      {
+        "unit": "TFT14_Brand",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_PowerGauntlet",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Ziggs",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_RapidFireCannon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Samira",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_MadredsBloodrazor"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "3": {
+    "units_string": "TFT14_Jarvan, TFT14_Leona, TFT14_Renekton, TFT14_Rhaast, TFT14_Senna, TFT14_Sylas, TFT14_Vayne, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Vayne",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "4": {
+    "units_string": "TFT14_Alistar, TFT14_Ekko, TFT14_Graves, TFT14_Neeko, TFT14_Rengar, TFT14_Urgot, TFT14_Varus, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Rengar",
+        "buildName": [
+          "TFT_Item_Artifact_SilvermereDawn",
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Varus",
+        "buildName": [
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_PowerGauntlet",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_HextechGunblade",
+          "TFT_Item_RabadonsDeathcap"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "5": {
+    "units_string": "TFT14_Aurora, TFT14_Elise, TFT14_Jhin, TFT14_Kindred, TFT14_Naafiri, TFT14_NidaleeCougar, TFT14_Sejuani, TFT14_Shyvana, TFT14_SummonLevel4",
+    "builds": [
+      {
+        "unit": "TFT14_Shyvana",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Elise",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Jhin",
+        "buildName": [
+          "TFT14_JhinCyberneticItem",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT14_JaxCyberneticItem",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "6": {
+    "units_string": "TFT14_Braum, TFT14_Darius, TFT14_Gragas, TFT14_KogMaw, TFT14_MissFortune, TFT14_Shaco, TFT14_Skarner, TFT14_TwistedFate",
+    "builds": [
+      {
+        "unit": "TFT14_TwistedFate",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade"
+        ]
+      },
+      {
+        "unit": "TFT14_MissFortune",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Braum",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Darius",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "7": {
+    "units_string": "TFT14_Braum, TFT14_Darius, TFT14_DrMundo, TFT14_Jarvan, TFT14_Senna, TFT14_Shaco, TFT14_Vayne, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Vayne",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Shaco",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "8": {
+    "units_string": "TFT14_Aphelios, TFT14_Garen, TFT14_Jarvan, TFT14_Jhin, TFT14_Jinx, TFT14_Leona, TFT14_Rhaast, TFT14_Sylas, TFT14_Xayah",
+    "builds": [
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade"
+        ]
+      },
+      {
+        "unit": "TFT14_Xayah",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "9": {
+    "units_string": "TFT14_Aurora, TFT14_Jax, TFT14_Jhin, TFT14_Kindred, TFT14_Mordekaiser, TFT14_Naafiri, TFT14_Sejuani, TFT14_Varus, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT14_JhinCyberneticItem",
+          "TFT14_VarusCyberneticItem",
+          "TFT_Item_GuinsoosRageblade"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT14_JaxCyberneticItem",
+          "TFT_Item_FrozenHeart",
+          "TFT_Item_Redemption"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Varus",
+        "buildName": [
+          "TFT_Item_Leviathan",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "10": {
+    "units_string": "TFT14_Annie, TFT14_Aurora, TFT14_Elise, TFT14_Gragas, TFT14_Kobuko, TFT14_NidaleeCougar, TFT14_Poppy, TFT14_Shyvana, TFT14_SummonLevel2, TFT14_Viego",
+    "builds": [
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Shyvana",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_NightHarvester",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  },
+  "11": {
+    "units_string": "TFT14_Aurora, TFT14_Gragas, TFT14_Jax, TFT14_Jhin, TFT14_Mordekaiser, TFT14_Morgana, TFT14_Sejuani, TFT14_Varus, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_HextechGunblade",
+          "TFT_Item_PowerGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT_Item_FrozenHeart",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Varus",
+        "buildName": [
+          "TFT14_NaafiriCyberneticItem",
+          "TFT_Item_RapidFireCannon",
+          "TFT_Item_StatikkShiv"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT14_MordekaiserCyberneticItem",
+          "TFT_Item_Crownguard",
+          "TFT_Item_NightHarvester"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "12": {
+    "units_string": "TFT14_Alistar, TFT14_Chogath, TFT14_Darius, TFT14_DrMundo, TFT14_Fiddlesticks, TFT14_Gragas, TFT14_Mordekaiser, TFT14_Urgot",
+    "builds": [
+      {
+        "unit": "TFT14_Fiddlesticks",
+        "buildName": [
+          "TFT14_Item_BruiserEmblemItem",
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_Artifact_BlightingJewel"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Urgot",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_MadredsBloodrazor"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT14_Item_BallistekEmblemItem",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_RedBuff"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "13": {
+    "units_string": "TFT14_Aurora, TFT14_Illaoi, TFT14_Jhin, TFT14_Leona, TFT14_Renekton, TFT14_Sylas, TFT14_Vayne, TFT14_Xayah, TFT14_Yuumi",
+    "builds": [
+      {
+        "unit": "TFT14_Xayah",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Vayne",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_RunaansHurricane"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "14": {
+    "units_string": "TFT14_Brand, TFT14_DrMundo, TFT14_Ekko, TFT14_Jinx, TFT14_Neeko, TFT14_Rengar, TFT14_Vex, TFT14_Zyra",
+    "builds": [
+      {
+        "unit": "TFT14_Rengar",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_TitansResolve",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Jinx",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Brand",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "15": {
+    "units_string": "TFT14_Braum, TFT14_Darius, TFT14_DrMundo, TFT14_Jarvan, TFT14_MissFortune, TFT14_Shaco, TFT14_TwistedFate, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Shaco",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_MissFortune",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_MadredsBloodrazor",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Braum",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_TwistedFate",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade"
+        ]
+      }
+    ],
+    "levelling": "lvl 5"
+  },
+  "16": {
+    "units_string": "TFT14_DrMundo, TFT14_Gragas, TFT14_Jarvan, TFT14_Renekton, TFT14_Rhaast, TFT14_Senna, TFT14_Vex, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Senna",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_RabadonsDeathcap"
+        ]
+      },
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Rhaast",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "17": {
+    "units_string": "TFT14_Brand, TFT14_Fiddlesticks, TFT14_Kobuko, TFT14_Mordekaiser, TFT14_Seraphine, TFT14_Shyvana, TFT14_Veigar, TFT14_Viego, TFT14_Zyra",
+    "builds": [
+      {
+        "unit": "TFT14_Brand",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Veigar",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Leviathan"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "18": {
+    "units_string": "TFT14_Brand, TFT14_Fiddlesticks, TFT14_Mordekaiser, TFT14_Poppy, TFT14_Shyvana, TFT14_Veigar, TFT14_Ziggs, TFT14_Zyra",
+    "builds": [
+      {
+        "unit": "TFT14_Veigar",
+        "buildName": [
+          "TFT4_Item_OrnnMuramana",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Ziggs",
+        "buildName": [
+          "TFT_Item_Leviathan",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Shyvana",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Poppy",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_RedBuff"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "19": {
+    "units_string": "TFT14_Chogath, TFT14_Gragas, TFT14_Jarvan, TFT14_Morgana, TFT14_Renekton, TFT14_Rhaast, TFT14_Senna, TFT14_Urgot, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_HextechGunblade",
+          "TFT_Item_PowerGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Renekton",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_SteraksGage"
+        ]
+      },
+      {
+        "unit": "TFT14_Gragas",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Urgot",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_LastWhisper"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  },
+  "20": {
+    "units_string": "TFT14_Annie, TFT14_Ekko, TFT14_LeBlanc, TFT14_Naafiri, TFT14_Neeko, TFT14_NidaleeCougar, TFT14_Samira, TFT14_Yuumi, TFT14_Ziggs",
+    "builds": [
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Samira",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Ziggs",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "21": {
+    "units_string": "TFT14_Elise, TFT14_Kindred, TFT14_Kobuko, TFT14_NidaleeCougar, TFT14_Poppy, TFT14_Shyvana, TFT14_SummonLevel4, TFT14_Veigar, TFT14_Ziggs",
+    "builds": [
+      {
+        "unit": "TFT14_Shyvana",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Veigar",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Leviathan"
+        ]
+      },
+      {
+        "unit": "TFT14_Elise",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_NidaleeCougar",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_TitansResolve"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "22": {
+    "units_string": "TFT14_Ekko, TFT14_Galio, TFT14_Illaoi, TFT14_LeBlanc, TFT14_Leona, TFT14_Neeko, TFT14_Vi, TFT14_Yuumi",
+    "builds": [
+      {
+        "unit": "TFT14_LeBlanc",
+        "buildName": [
+          "TFT4_Item_OrnnMuramana",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Galio",
+        "buildName": [
+          "TFT_Item_IonicSpark",
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption"
+        ]
+      },
+      {
+        "unit": "TFT14_Yuumi",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_HextechGunblade"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "23": {
+    "units_string": "TFT14_Braum, TFT14_Draven, TFT14_Jarvan, TFT14_KogMaw, TFT14_Leona, TFT14_Skarner, TFT14_TwistedFate, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Draven",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_TwistedFate",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "24": {
+    "units_string": "TFT14_Brand, TFT14_Ekko, TFT14_Kobuko, TFT14_Mordekaiser, TFT14_Neeko, TFT14_Poppy, TFT14_Shyvana, TFT14_Veigar, TFT14_Ziggs",
+    "builds": [
+      {
+        "unit": "TFT14_Veigar",
+        "buildName": [
+          "TFT4_Item_OrnnMuramana",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Ziggs",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_RapidFireCannon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Brand",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_PowerGauntlet",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "25": {
+    "units_string": "TFT14_Alistar, TFT14_Annie, TFT14_Aphelios, TFT14_DrMundo, TFT14_Graves, TFT14_Jarvan, TFT14_Senna, TFT14_Viego, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_Artifact_ProwlersClaw",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT14_Item_ImmortalEmblemItem",
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Crownguard",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "26": {
+    "units_string": "TFT14_Aurora, TFT14_Braum, TFT14_Chogath, TFT14_Darius, TFT14_Elise, TFT14_Gragas, TFT14_Kobuko, TFT14_MissFortune, TFT14_Morgana",
+    "builds": [
+      {
+        "unit": "TFT14_MissFortune",
+        "buildName": [
+          "TFT14_Item_BallistekEmblemItem",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon"
+        ]
+      },
+      {
+        "unit": "TFT14_Kobuko",
+        "buildName": [
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "27": {
+    "units_string": "TFT14_Chogath, TFT14_Fiddlesticks, TFT14_Garen, TFT14_Gragas, TFT14_Kobuko, TFT14_Mordekaiser, TFT14_Skarner, TFT14_Urgot, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Urgot",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_MadredsBloodrazor"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT14_Item_BallistekEmblemItem",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_RabadonsDeathcap"
+        ]
+      },
+      {
+        "unit": "TFT14_Fiddlesticks",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_Bloodthirster"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "28": {
+    "units_string": "TFT14_Braum, TFT14_Chogath, TFT14_Fiddlesticks, TFT14_KogMaw, TFT14_Leona, TFT14_Rhaast, TFT14_Skarner, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_KogMaw",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Skarner",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Rhaast",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_SteraksGage",
+          "TFT_Item_TitansResolve"
+        ]
+      },
+      {
+        "unit": "TFT14_TwistedFate",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_HextechGunblade"
+        ]
+      }
+    ],
+    "levelling": "lvl 5"
+  },
+  "29": {
+    "units_string": "TFT14_Draven, TFT14_Galio, TFT14_Garen, TFT14_Illaoi, TFT14_Jax, TFT14_Renekton, TFT14_Sejuani, TFT14_Shyvana, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT14_VarusCyberneticItem",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT_Item_FrozenHeart",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Renekton",
+        "buildName": [
+          "TFT14_Item_SwiftEmblemItem",
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_TitansResolve"
+        ]
+      },
+      {
+        "unit": "TFT14_Draven",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "30": {
+    "units_string": "TFT14_Brand, TFT14_DrMundo, TFT14_Ekko, TFT14_LeBlanc, TFT14_Neeko, TFT14_Yuumi, TFT14_Ziggs, TFT14_Zyra",
+    "builds": [
+      {
+        "unit": "TFT14_LeBlanc",
+        "buildName": [
+          "TFT4_Item_OrnnMuramana",
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Ekko",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_IonicSpark",
+          "TFT_Item_RedBuff"
+        ]
+      },
+      {
+        "unit": "TFT14_Neeko",
+        "buildName": [
+          "TFT_Item_IonicSpark",
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption"
+        ]
+      },
+      {
+        "unit": "TFT14_Ziggs",
+        "buildName": [
+          "TFT_Item_RapidFireCannon",
+          "TFT_Item_SpearOfShojin",
+          "TFT_Item_StatikkShiv"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "31": {
+    "units_string": "TFT14_Alistar, TFT14_Annie, TFT14_Aphelios, TFT14_Garen, TFT14_Graves, TFT14_Jarvan, TFT14_Kobuko, TFT14_Viego, TFT14_Zac",
+    "builds": [
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  },
+  "32": {
+    "units_string": "TFT14_Draven, TFT14_Galio, TFT14_Jax, TFT14_Renekton, TFT14_Sejuani, TFT14_Senna, TFT14_Zed, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Draven",
+        "buildName": [
+          "TFT5_Item_InfinityEdgeRadiant",
+          "TFT5_Item_SpearOfShojinRadiant",
+          "TFT_Item_Artifact_LudensTempest"
+        ]
+      },
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Galio",
+        "buildName": [
+          "TFT5_Item_NightHarvesterRadiant",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT14_ZeriCyberneticItem",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "33": {
+    "units_string": "TFT14_Annie, TFT14_Jax, TFT14_Jhin, TFT14_Mordekaiser, TFT14_Naafiri, TFT14_NidaleeCougar, TFT14_Sejuani, TFT14_Yuumi",
+    "builds": [
+      {
+        "unit": "TFT14_Naafiri",
+        "buildName": [
+          "TFT14_NaafiriCyberneticItem",
+          "TFT_Item_Artifact_SpectralCutlass",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT_Item_FrozenHeart",
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT14_MordekaiserCyberneticItem",
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "34": {
+    "units_string": "TFT14_Chogath, TFT14_Darius, TFT14_Draven, TFT14_Gragas, TFT14_KogMaw, TFT14_Mordekaiser, TFT14_TwistedFate, TFT14_Zeri",
+    "builds": [
+      {
+        "unit": "TFT14_Zeri",
+        "buildName": [
+          "TFT14_VarusCyberneticItem",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Draven",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "35": {
+    "units_string": "TFT14_Gragas, TFT14_Graves, TFT14_Morgana, TFT14_Rengar, TFT14_Rhaast, TFT14_Senna, TFT14_Varus, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_HextechGunblade",
+          "TFT_Item_JeweledGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Gragas",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Renekton",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_SteraksGage",
+          "TFT_Item_TitansResolve"
+        ]
+      },
+      {
+        "unit": "TFT14_Rengar",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_TitansResolve",
+          "TFT_Item_UnstableConcoction"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "36": {
+    "units_string": "TFT14_Aphelios, TFT14_Galio, TFT14_Jax, TFT14_Jhin, TFT14_Jinx, TFT14_Renekton, TFT14_Sejuani, TFT14_Xayah",
+    "builds": [
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Sejuani",
+        "buildName": [
+          "TFT14_JaxCyberneticItem",
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff"
+        ]
+      },
+      {
+        "unit": "TFT14_Xayah",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Jhin",
+        "buildName": [
+          "TFT14_NaafiriCyberneticItem",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Fast 8"
+  },
+  "37": {
+    "units_string": "TFT14_Chogath, TFT14_DrMundo, TFT14_Gragas, TFT14_Jarvan, TFT14_Senna, TFT14_Shaco, TFT14_Vayne, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Vayne",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Senna",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "38": {
+    "units_string": "TFT14_Alistar, TFT14_Aphelios, TFT14_Chogath, TFT14_Darius, TFT14_DrMundo, TFT14_Gragas, TFT14_Mordekaiser, TFT14_Xayah",
+    "builds": [
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Xayah",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Mordekaiser",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "39": {
+    "units_string": "TFT14_Aurora, TFT14_Leona, TFT14_Morgana, TFT14_Rhaast, TFT14_Skarner, TFT14_Sylas, TFT14_Urgot, TFT14_Vex, TFT14_Zac",
+    "builds": [
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Rhaast",
+        "buildName": [
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_TitansResolve",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Urgot",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_MadredsBloodrazor"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_Morellonomicon",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Standard"
+  },
+  "40": {
+    "units_string": "TFT14_Alistar, TFT14_Annie, TFT14_Aphelios, TFT14_Graves, TFT14_Jarvan, TFT14_Rengar, TFT14_Vex, TFT14_Viego",
+    "builds": [
+      {
+        "unit": "TFT14_Graves",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_Deathblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      },
+      {
+        "unit": "TFT14_Rengar",
+        "buildName": [
+          "TFT14_Item_ImmortalEmblemItem",
+          "TFT_Item_GuardianAngel",
+          "TFT_Item_UnstableConcoction"
+        ]
+      }
+    ],
+    "levelling": "lvl 6"
+  },
+  "41": {
+    "units_string": "TFT14_Chogath, TFT14_Elise, TFT14_Fiddlesticks, TFT14_Kindred, TFT14_KogMaw, TFT14_NidaleeCougar, TFT14_Shyvana, TFT14_Skarner, TFT14_SummonLevel2",
+    "builds": [
+      {
+        "unit": "TFT14_KogMaw",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_RunaansHurricane"
+        ]
+      },
+      {
+        "unit": "TFT14_Shyvana",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_DragonsClaw",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Chogath",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_WarmogsArmor",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Fiddlesticks",
+        "buildName": [
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_ArchangelsStaff",
+          "TFT_Item_Bloodthirster"
+        ]
+      }
+    ],
+    "levelling": "lvl 5"
+  },
+  "42": {
+    "units_string": "TFT14_Gragas, TFT14_Graves, TFT14_Jarvan, TFT14_Rengar, TFT14_Rhaast, TFT14_Urgot, TFT14_Varus, TFT14_Vex",
+    "builds": [
+      {
+        "unit": "TFT14_Rengar",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_TitansResolve",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Varus",
+        "buildName": [
+          "TFT14_VarusCyberneticItem",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Vex",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_RabadonsDeathcap"
+        ]
+      },
+      {
+        "unit": "TFT14_Graves",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "43": {
+    "units_string": "TFT14_Alistar, TFT14_Annie, TFT14_Aphelios, TFT14_Aurora, TFT14_Graves, TFT14_Jarvan, TFT14_Leona, TFT14_Viego, TFT14_Xayah",
+    "builds": [
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge"
+        ]
+      },
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Leona",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  },
+  "44": {
+    "units_string": "TFT14_Draven, TFT14_Galio, TFT14_Jarvan, TFT14_LeBlanc, TFT14_Senna, TFT14_Vayne, TFT14_Vi, TFT14_Zed",
+    "builds": [
+      {
+        "unit": "TFT14_Draven",
+        "buildName": [
+          "TFT5_Item_InfinityEdgeRadiant",
+          "TFT5_Item_SpearOfShojinRadiant",
+          "TFT_Item_Artifact_LudensTempest"
+        ]
+      },
+      {
+        "unit": "TFT14_Zed",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Galio",
+        "buildName": [
+          "TFT_Item_RedBuff",
+          "TFT_Item_Redemption",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Vi",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_SteraksGage",
+          "TFT_Item_TitansResolve"
+        ]
+      }
+    ],
+    "levelling": "lvl 7"
+  },
+  "48": {
+    "units_string": "TFT14_Alistar, TFT14_Annie, TFT14_Aphelios, TFT14_Garen, TFT14_Graves, TFT14_Jarvan, TFT14_Kobuko, TFT14_Viego, TFT14_Zac",
+    "builds": [
+      {
+        "unit": "TFT14_Annie",
+        "buildName": [
+          "TFT_Item_BlueBuff",
+          "TFT_Item_Leviathan",
+          "TFT_Item_SpearOfShojin"
+        ]
+      },
+      {
+        "unit": "TFT14_Aphelios",
+        "buildName": [
+          "TFT_Item_GuinsoosRageblade",
+          "TFT_Item_InfinityEdge",
+          "TFT_Item_LastWhisper"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Jarvan",
+        "buildName": [
+          "TFT_Item_BrambleVest",
+          "TFT_Item_RedBuff",
+          "TFT_Item_SpectralGauntlet"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  },
+  "52": {
+    "units_string": "TFT14_Annie, TFT14_Aurora, TFT14_Chogath, TFT14_Garen, TFT14_Kobuko, TFT14_Renekton, TFT14_Samira, TFT14_Urgot, TFT14_Viego, TFT14_Zac",
+    "builds": [
+      {
+        "unit": "TFT14_Renekton",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_SteraksGage",
+          "TFT_Item_TitansResolve"
+        ]
+      },
+      {
+        "unit": "TFT14_Viego",
+        "buildName": [
+          "TFT_Item_Bloodthirster",
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_UnstableConcoction"
+        ]
+      },
+      {
+        "unit": "TFT14_Zac",
+        "buildName": [
+          "TFT_Item_GargoyleStoneplate",
+          "TFT_Item_RedBuff",
+          "TFT_Item_WarmogsArmor"
+        ]
+      },
+      {
+        "unit": "TFT14_Aurora",
+        "buildName": [
+          "TFT_Item_JeweledGauntlet",
+          "TFT_Item_RabadonsDeathcap",
+          "TFT_Item_SpearOfShojin"
+        ]
+      }
+    ],
+    "levelling": "Fast 9"
+  }
+}

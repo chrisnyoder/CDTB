@@ -792,7 +792,7 @@
         "minUnits": 2,
         "style": 1,
         "variables": {
-          "DamageAmp": 0.12999999523162842,
+          "DamageAmp": 0.11999999731779099,
           "{0bd4b104}": 1.0,
           "{12bbe349}": null,
           "{19e84ec6}": 1.0,
@@ -809,13 +809,13 @@
         "minUnits": 4,
         "style": 3,
         "variables": {
-          "DamageAmp": 0.20000000298023224,
+          "DamageAmp": 0.2199999988079071,
           "{0bd4b104}": 1.0,
           "{12bbe349}": null,
           "{19e84ec6}": 1.0,
           "{24626b4a}": 0.07999999821186066,
           "{38d15b70}": null,
-          "{786dea50}": 0.5,
+          "{786dea50}": 0.6000000238418579,
           "{85d365ea}": null,
           "{d0e12874}": 4.0,
           "{e29303a0}": null
@@ -826,13 +826,13 @@
         "minUnits": 6,
         "style": 5,
         "variables": {
-          "DamageAmp": 0.25,
+          "DamageAmp": 0.30000001192092896,
           "{0bd4b104}": 1.0,
           "{12bbe349}": 0.07000000029802322,
           "{19e84ec6}": 1.0,
           "{24626b4a}": 0.07999999821186066,
           "{38d15b70}": null,
-          "{786dea50}": 0.75,
+          "{786dea50}": 1.0,
           "{85d365ea}": null,
           "{d0e12874}": 3.0,
           "{e29303a0}": null
@@ -871,7 +871,7 @@
         "minUnits": 6,
         "style": 5,
         "variables": {
-          "MissileDamage": 225.0,
+          "MissileDamage": 275.0,
           "{540aad25}": 0.07999999821186066,
           "{91f7abc1}": 400.0
         }
@@ -975,7 +975,7 @@
   },
   {
     "apiName": "TFT14_Virus",
-    "desc": "The Virus infects your shop with a @ChanceToSee@% chance to spawn a bloblet. When purchased, it merges and increases the strongest Zac's max Health by @BonusPercentHPPerStack*100@% and Ability Power by @BonusAPPerStack@. <br><br><TFTTracker>(Total Bloblets: <TFTBonus>@TFTUnitProperty.trait:TFT14_Virus_Stacks@</TFTBonus>)</TFTTracker>",
+    "desc": "The Virus infects your shop with a @ChanceToSee@% chance to spawn a bloblet. When purchased, it merges and increases the strongest Zac's max Health by @BonusPercentHPPerStack*100@% and Ability Power by @BonusAPPerStack@ <rules>(doubled in Hyper Roll)</rules>. <br><br><TFTTracker>(Total Bloblets: <TFTBonus>@TFTUnitProperty.trait:TFT14_Virus_Stacks@</TFTBonus>)</TFTTracker>",
     "effects": [
       {
         "maxUnits": 25000,
@@ -1047,7 +1047,7 @@
           "{10423961}": null,
           "{4d6eede4}": null,
           "{4eb7d3e8}": 800,
-          "{8911c1f3}": 14.0,
+          "{8911c1f3}": 11.0,
           "{8a85bbd1}": 200.0,
           "{a691af58}": 1.0,
           "{bba458bd}": null,
@@ -1068,7 +1068,7 @@
           "{10423961}": null,
           "{4d6eede4}": null,
           "{4eb7d3e8}": 800,
-          "{8911c1f3}": 14.0,
+          "{8911c1f3}": 11.0,
           "{8a85bbd1}": 200.0,
           "{a691af58}": 1.0,
           "{bba458bd}": null,
